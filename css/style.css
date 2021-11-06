@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background: url('../img/bg.jpg') no-repeat center center;
+    height: 600px;
+    background-size: cover;
+}
+#topnav{
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0 50px;
+  width: 100%;
+  background-color: #41658e;
+  line-height: 3;
+}
+#logo{
+    float: left;
+    width: 30%;
+    line-height: 2;
+    height: 60px;
+    background-color: #41658e;
+    background-color: #41658e;
+}
+.logoicon{
+    font-size: 30px;
+    color: white;
+   /* line-height: 3.5;*/
+}
+#mainnav{
+    float: right;
+    width: 70%;
+    height: 60px;
+    text-align: right;
+    background-color: #41658e;
+line-height: 3.5;
+}
+a{
+    text-decoration: none;
+}
+.navitem{
+    color: white;
+    font-weight: 600;
+   line-height: 3;
+    margin-left: 50px;
+    display: inline-block;
+    height: 60px;
+    padding: 0 10px;
+}
+.navitem:hover{
+    color: black;
+}
+.active-anvitem{
+    background-color: white;
+    color: #41658e;
+    display: inline-block;
+    height: 60px;
+    padding: 0 10px;
+}
+.active-navitem:active{
+    background-color: rgb(97, 91, 91);
+    height: 60px;
+}
+#head{
+
+    padding-top: 200px;
+}
+.sitetitle{
+    
+    color: white;
+    padding: 20px;
+    font-size: 50px;
+    width: 40%;
+    background-color: #41658e;
+    margin-left: 40px;
+}
+
+#Services{
+    background-color: #eee;
+    padding: 20px;
+    height: 420px;
+    overflow: hidden;
+}
+.sechead{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    color: #41658e;
+
+}
+.headhr{
+    margin:auto;
+    width:10%;
+    border: 1px solid #41658e;
+    margin-bottom: 20px;
+}
+.service{
+    float: left;
+    width: 32.3%;
+    border: 1px solid #41658e;
+    border-radius: 8px;
+padding: 20px;
+font-size: 18px;
+}
+.service2 , .service3{
+    margin-left: 1.5%;
+}
+.num{
+    width: 50px;
+    height: 50px;
+    background-color: #41658e;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 50%;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-top: -50px;
+}
+.serviceName{
+    text-transform: capitalize;
+    color: #41658e;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: 'arial';
+}
+.servicedescr{
+    line-height: 1.5;
+    text-align: justify;
+    color: #6d5f5f;
+    font-family: 'arial';
+}
+.service:hover{
+    border: 1px solid #41658e;
+    cursor: pointer;
+    background-color: #41658e;
+}
+.service:hover .num{
+    width: 50px;
+    height: 50px;
+    background-color:white;
+    color:#41658e;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 50%;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.service:hover .serviceName{
+    color: white;
+}
+.service:hover .servicedescr{
+    color: white;
+}
+footer{
+    background:url('../img/bg.jpg') no-repeat center center;
+    height: 300px;
+    background-size: cover;
+}
+#footer{
+    background: rgba(5,13,46,0.9);
+    height: 300px;
+    background-size: cover;
+    padding: 30px;
+    font-family: 'arial';
+    color: white;
+}
+.side{
+    float: left;
+    width: 33.3%;
+    padding: 20px;
+}
+.side-title{
+    font-size: 20px;
+    text-transform: capitalize;
+margin-bottom: 15px;
+
+}
+.site-about{
+    line-height: 1.5;
+    margin-bottom: 15px;
+    font-size: 18px;
+    
+}
+.social{
+    text-align: center;
+}
+.socialicon{
+    font-size: 27px;
+    margin-left: 8px;
+}
+.qlinks{
+    margin-left: 20px;
+}
+.qlink-li{
+    margin-bottom: 8px;
+}
+.qlink-item{
+    color: white;
+    font-size: 18px;
+}
+.qlink-item:hover{
+    color: #6d5f5f;
+    text-decoration: underline;
+}
+
+.inputf , .contactform ,.inputarea ,.btn{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.inputarea{
+    color: #716868;
+
+}
+.inputf:focus , .contactform ,.inputarea:focus ,.btn{
+    outline: none;
+    
+}
+
+.btn{
+    background-color: #41658e;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+}
+.btn:hover{
+    background-color: #ccc;
+    color: #41658e;
+    cursor: pointer;
+}
+#copyright{
+    background-color:#545151;
+    color: white;
+    text-align: center;
+    line-height: 3;
+    text-transform: capitalize;
+    font-size: 18px;
+}
